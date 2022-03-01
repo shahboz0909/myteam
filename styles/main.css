@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  display: swap;
+  src:  url("../fonts/livvic-v11-latin-regular.woff2") format("woff2"),
+        url("../fonts/livvic-v11-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  display: swap;
+  src: url("../fonts/livvic-v11-latin-600.woff2") format("woff2"),
+       url("../fonts/livvic-v11-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  display: swap;
+  src: url("../fonts/livvic-v11-latin-700.woff2") format("woff2"),
+       url("../fonts/livvic-v11-latin-700.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/livvic-v11-latin-italic.woff2") format("woff2"), 
+       url("../fonts/livvic-v11-latin-italic.woff") format("woff"); 
+}
+
+
+
+
+
+body {
+  box-sizing: border-box;
+  font-family:Livvic;
+  
+}
+.homework-section {
+  background-color: #004047;
+}
+
+
+.cotainer {
+  width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #004047;
+}
+
+
+
+.site-hero-list {
+  width: 1100px;
+  list-style-type: none;
+  padding: 0;
+padding-bottom: 150px;
+margin-top: -80px;
+margin: 0;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.site-hero-item {
+margin-top: 50px;
+width: 350px;
+height: 250px;
+background-color: #012F34;
+}
+
+.site-hero-heading {
+text-align: center;
+padding-top: 150px;
+margin-bottom: -1px;
+color: #FFFFFF;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+
+}
+
+.heading {
+margin: 0;
+height: 28px;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #79C8C7;
+}
+
+.mini-images {
+width: 96px;
+height: 96px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hero-text {
+margin: 0;
+height: 25px;
+font-family: Livvic;
+font-style: italic;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.center {
+  height: 250px;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-left: 32px;
+  padding-bottom: 56px;
+  text-align: center;
+}
+
+.list-bol-div {
+transition: 0.5s ease;
+position: relative;
+top: 30px;
+width: 56px;
+height: 56px;
+margin-right: auto;
+margin-left: auto;
+border-radius: 50px;
+background: #F67E7E;
+}
+
+.transform-span {
+cursor: pointer;
+position: relative;
+top: 3.5px;
+width: 16px;
+height: 16px;
+color: #012F34;
+font-weight: bold;
+font-size: 33px;
+}
+
+.list-bol-div:hover {
+transform: rotate(135deg);
+width: 56px;
+height: 56px;
+background: #79C8C7;
+}
